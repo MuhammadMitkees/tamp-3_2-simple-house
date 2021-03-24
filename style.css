@@ -1,0 +1,347 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 17px;
+  background-color: #ccc;
+  overflow-x: hidden;
+}
+
+.main-container {
+  width: 100%;
+  max-width: 159.15119363395226vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 75px;
+  background-color: white;
+}
+.welcomeHeader {
+  margin: 7.957559681697613vh auto;
+  max-width: 86.87002652519894vh;
+}
+.welcomeHeader p {
+  text-align: center;
+}
+.cardsDiv {
+  max-width: 1120px;
+  margin: auto;
+}
+.cardsFigcaption {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* figure {
+  display: flex;
+} */
+.cardDiv {
+  margin-bottom: 75px;
+}
+.footerAll {
+  padding: 25px 15px;
+  margin-top: 40px;
+}
+.formInformation {
+  max-width: 840px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.contact-form {
+  max-width: 310px;
+}
+.form-group {
+  margin-bottom: 30px;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #626364;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-right: 0;
+  border-top: 0;
+  border-left: 0;
+  border-radius: 0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sendButton {
+  align-self: flex-end;
+  background-color: #319966;
+  color: white;
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+.sendButton:hover {
+  background-color: #1d6e46;
+}
+.tm-title-info {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+address {
+  font-style: normal;
+  margin-bottom: 50px;
+  color: #626364;
+  line-height: 1.8;
+}
+.accordionDiv {
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.tm-gallery-page {
+  max-width: 1120px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.tm-paging-links {
+  text-align: center;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .greenBtn {
+  background-color: #2f956d;
+  color: white;
+} */
+.parallax {
+  background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page263/simple-house/assets/img/simple-house-01.jpg);
+  min-height: 460px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position-y: bottom;
+  background-position-x: center;
+  width: 100%;
+}
+.tm-header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+}
+.tm-nav-li {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.tm-nav-ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.tm-nav-link {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.tm-nav-link:hover {
+  border-bottom: 1px solid white;
+  color: white;
+}
+.oneImageRow {
+  max-width: 1120px;
+}
+
+.tm-description-box {
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  max-width: 530px;
+}
+.tm-gallery-title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #1a6692;
+  margin-bottom: 15px;
+}
+.tm-mb-45 {
+  margin-bottom: 45px;
+}
+.tm-right {
+  align-self: flex-end;
+}
+.tm-btn-default {
+  border: 1px solid #ccc;
+  background-color: transparent;
+  color: #626364;
+}
+.tm-btn-default:hover {
+  color: white;
+  background-color: #98999a;
+}
+.tm-btn {
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+}
+a,
+button {
+  transition: all 0.3s ease;
+}
+@media (min-width: 768px) {
+  .tm-description-box {
+    padding-left: 5px;
+    padding-right: 40px;
+    margin-top: 0;
+  }
+}
+p,
+address {
+  color: #626364;
+  line-height: 1.8;
+}
+.mb-80 {
+  margin-bottom: 80px;
+}
+.tm-gallery-price {
+  font-size: 1.25rem;
+  color: #2f956d;
+  margin-bottom: 60px;
+}
+.tm-person-name {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #09c;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+@media (min-width: 420px) {
+  .tm-person-name {
+    margin-top: 0;
+  }
+}
+.tm-person-title {
+  color: #c39;
+  margin-bottom: 20px;
+}
+.tm-person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.tm-social-link {
+  color: #626364;
+  display: inline-block;
+  border-radius: 1px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  margin-right: 0;
+  margin-bottom: 15px;
+}
+.about-background-div {
+  max-width: 1120px;
+  margin: auto;
+}
+.parallax-about {
+  background-image: url(https://www.free-css.com/assets/files/free-css-templates/preview/page263/simple-house/assets/img/about-05.jpg);
+  height: 220px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position-y: bottom;
+  background-position-x: center;
+  width: 100%;
+  margin-bottom: 75px;
+}
+.tm-feature {
+  text-align: center;
+  padding: 45px 20px;
+}
+
+.tm-feature-icon {
+  color: #9f9c9c;
+  margin-bottom: 65px;
+}
+.tm-btn {
+  display: inline-block;
+  font-size: 1rem;
+  width: auto;
+  padding: 10px 30px;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+}
+.tm-btn-primary {
+  background-color: #2d99cc;
+  color: white;
+}
+.tm-btn-primary:hover {
+  background-color: #1b6f96;
+  color: white;
+}
+.tm-btn-success {
+  background-color: #319966;
+  color: white;
+}
+.tm-btn-success:hover {
+  background-color: #1d6e46;
+  color: white;
+}
+.tm-btn-danger {
+  background-color: #993332;
+  color: white;
+}
+.tm-btn-danger:hover {
+  background-color: #752423;
+  color: white;
+}
+.IconsDiv {
+  max-width: 1120px;
+  margin: 50px auto;
+}
+.tm-history-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #1a6692;
+  margin-bottom: 30px;
+}
+.tm-info-title {
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.tm-text-success {
+  color: #319966;
+}
+.tm-contact-link {
+  display: block;
+  color: #626364;
+  margin-bottom: 25px;
+  text-decoration: none;
+}
+.tm-contact-icon {
+  display: inline-block;
+  margin-right: 25px;
+  color: #319966;
+}
